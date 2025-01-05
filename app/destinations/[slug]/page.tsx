@@ -101,8 +101,13 @@ const destinations = {
     rating: 4.4
   }
 }
+interface DestinationPageProps {
+    params: {
+      slug: string
+    }
+  }
 
-export default function DestinationPage({ params }: { params: { slug: string } }) {
+export default function DestinationPage({ params }: DestinationPageProps) {
   const destination = destinations[params.slug as keyof typeof destinations]
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
