@@ -8,7 +8,14 @@ import { notFound } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription } from '@/components/ui/card'
 import { MapPin, Calendar, Users, Star } from 'lucide-react'
+import { Metadata } from 'next'
 
+type Props = {
+    params: {
+      slug: string
+    }
+    searchParams: { [key: string]: string | string[] | undefined }
+  }
 const destinations = {
   'char-dham-yatra': {
     name: 'Char Dham Yatra',
@@ -101,13 +108,9 @@ const destinations = {
     rating: 4.4
   }
 }
-interface DestinationPageProps {
-    params: {
-      slug: string
-    }
-  }
 
-export default function DestinationPage({ params }: DestinationPageProps) {
+
+export default function DestinationPage({ params, searchParams }: Props) {
   const destination = destinations[params.slug as keyof typeof destinations]
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
