@@ -1,6 +1,5 @@
 'use server'
 
-import { useState } from 'react'
 
 export async function sendWhatsApp(formData: FormData) {
   const name = formData.get('name') as string

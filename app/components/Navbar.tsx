@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-primary text-primary-foreground p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold">Travel Co.</Link>
+        <Link href="/" className="text-2xl font-bold">Adventure Boat</Link>
         <div className="hidden md:flex space-x-4">
           <Link href="/" className="">Home</Link>
           <Link href="/destinations" className="">Destinations</Link>
