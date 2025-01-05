@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
-            <p className="text-sm">Travel Co. is your trusted partner for unforgettable journeys across India. We specialize in creating memorable experiences with comfort and adventure.</p>
+            <p className="text-sm">Adventure Boat is your trusted partner for unforgettable journeys across India. We specialize in creating memorable experiences with comfort and adventure.</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -35,7 +35,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-4 border-t border-primary-foreground/10 text-center text-sm">
-          © 2025 Travel Co. All rights reserved.
+          © 2025 Adventure Boat All rights reserved.
         </div>
       </div>
     </footer>

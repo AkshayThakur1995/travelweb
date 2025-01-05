@@ -105,7 +105,7 @@ export default function Home() {
         className="text-center adventure-bg py-20 rounded-lg"
       >
         <h1 className="text-5xl font-bold mb-4 text-white drop-shadow-lg">Embark on Your Next Adventure</h1>
-        <p className="text-xl mb-6 text-white drop-shadow-md">Discover breathtaking destinations with Travel Co.</p>
+        <p className="text-xl mb-6 text-white drop-shadow-md">Discover breathtaking destinations with Adventure Boat</p>
         <Link href="/destinations">
           <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
             <Compass className="mr-2 h-5 w-5" /> Explore Destinations
